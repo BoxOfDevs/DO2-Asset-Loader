@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"AvgZing"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.7"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	},
+	"header": {
+		"name": "AvgZing Decked Out 2 Addon",
+		"description": "Addon used for custom items, sounds, and textures for AvgZing's port of Decked Out 2 to bedrock",
+		"min_engine_version": [
+			1,
+			20,
+			40
+		],
+		"uuid": "e0c3e92a-a02d-4463-ab8a-bd9cef0782b3",
+		"version": [
+			1,
+			0,
+			2
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "5cf3779c-68e3-4772-8f3e-3391cd3fc1e0",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "4ab279fe-a082-4036-8b2e-b3f58396e2e6",
+			"version": [
+				1,
+				0,
+				2
+			]
+		}
+	]
+}
