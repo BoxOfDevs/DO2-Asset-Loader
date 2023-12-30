@@ -124,6 +124,284 @@
 		"do2.treasure.hunter": {
 			"category": "neutral",
 			"sounds": ["sounds/do2cards/treasure_hunter"]
+		},
+		"do2.artifact.artifactretrieval": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Artifact_ArtifactRetrieval_"]
+		},
+		"do2.card.recycle.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2events/DO_Card_Recycle_1",
+				"sounds/do2events/DO_Card_Recycle_2",
+				"sounds/do2events/DO_Card_Recycle_3",
+				"sounds/do2events/DO_Card_Recycle_4",
+				"sounds/do2events/DO_Card_Recycle_5",
+				"sounds/do2events/DO_Card_Recycle_6",
+				"sounds/do2events/DO_Card_Recycle_7",
+				"sounds/do2events/DO_Card_Recycle_8"
+			]
+		},
+		"do2.clank.clankblocked.set1.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2events/DO_Clank_ClankBlocked_Set1_1",
+				"sounds/do2events/DO_Clank_ClankBlocked_Set1_2",
+				"sounds/do2events/DO_Clank_ClankBlocked_Set1_3",
+				"sounds/do2events/DO_Clank_ClankBlocked_Set1_4",
+				"sounds/do2events/DO_Clank_ClankBlocked_Set1_5",
+				"sounds/do2events/DO_Clank_ClankBlocked_Set1_6",
+				"sounds/do2events/DO_Clank_ClankBlocked_Set1_7",
+				"sounds/do2events/DO_Clank_ClankBlocked_Set1_8",
+				"sounds/do2events/DO_Clank_ClankBlocked_Set1_9"
+			]
+		},
+		"do2.currency.crownconversion.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2events/DO_Currency_CrownConversion_Se1",
+				"sounds/do2events/DO_Currency_CrownConversion_Se2",
+				"sounds/do2events/DO_Currency_CrownConversion_Se3",
+				"sounds/do2events/DO_Currency_CrownConversion_Se4",
+				"sounds/do2events/DO_Currency_CrownConversion_Se5",
+				"sounds/do2events/DO_Currency_CrownConversion_Se6",
+				"sounds/do2events/DO_Currency_CrownConversion_Se7"
+			]
+		},
+		"do2.currency.frostemberpurchase.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2events/DO_Currency_FrostEmberPurchase1",
+				"sounds/do2events/DO_Currency_FrostEmberPurchase2",
+				"sounds/do2events/DO_Currency_FrostEmberPurchase3",
+				"sounds/do2events/DO_Currency_FrostEmberPurchase4",
+				"sounds/do2events/DO_Currency_FrostEmberPurchase5",
+				"sounds/do2events/DO_Currency_FrostEmberPurchase6"
+			]
+		},
+		"do2.deepfrost.openingexplosion": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Deepfrost_OpeningExplosion"]
+		},
+		"do2.difficulty.deadly": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Difficulty_Deadly"]
+		},
+		"do2.difficulty.deepfrost": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Difficulty_Deepfrost"]
+		},
+		"do2.difficulty.easy": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Difficulty_Easy"]
+		},
+		"do2.difficulty.hard": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Difficulty_Hard"]
+		},
+		"do2.difficulty.medium": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Difficulty_Medium"]
+		},
+		"do2.dungeontaunt.1": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_DungeonTaunt_1"]
+		},
+		"do2.entrance.doordrone.set1.4": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Entrance_DoorDrone_Set1_4"]
+		},
+		"do2.gameover.dungeonreset": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_GameOver_DungeonReset"]
+		},
+		"do2.hazard.hazardblocked.set1.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_1",
+				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_2",
+				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_3",
+				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_4",
+				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_5",
+				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_6",
+				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_7",
+				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_8",
+				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_9"
+			]
+		},
+		"do2.hazard.hazardtrigger.set1.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_1",
+				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_2",
+				"sounds/do2events/DO_HAzard_HazardTrigger_Set1_3",
+				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_4",
+				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_5",
+				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_6",
+				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_7",
+				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_8",
+				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_9"
+			]
+		},
+		"do2.heartbeat.1": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_HeartBeat_1"]
+		},
+		"do2.holloween.entrancetune.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2events/DO_Holloween_EntranceTune_1",
+				"sounds/do2events/DO_Holloween_EntranceTune_2",
+				"sounds/do2events/DO_Holloween_EntranceTune_3"
+			]
+		},
+		"do2.holloween.failure.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2events/DO_Holloween_Failure_1",
+				"sounds/do2events/DO_Holloween_Failure_2",
+				"sounds/do2events/DO_Holloween_Failure_3"
+			]
+		},
+		"do2.holloween.success.1": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Holloween_Success_1"]
+		},
+		"do2.shulker.loaded.1": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Shulker_Loaded_1"]
+		},
+		"do2.shulker.loaded.tick.thud": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Shulker_Loaded_Tick+Thud"]
+		},
+		"do2.ambient.drone.deepfrost.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_1",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_2",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_3",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_4",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_5",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_6",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_7",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_8",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_9",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_10",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_11",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_12",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_13",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_14",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_15",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_16",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_17",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_18"
+			]
+		},
+		"do2.ambient.drone.deepfrost.random1": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_1",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_2",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_3",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_4",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_5",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_6",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_7",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_8",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_9"
+			]
+		},
+		"do2.ambient.drone.deepfrost.random2": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_10",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_11",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_12",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_13",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_14",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_15",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_16",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_17",
+				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_18"
+			]
+		},
+		"do2.ambient.drone.set1.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2ambiance/DO_Ambient_Drone_Set1_1",
+				"sounds/do2ambiance/DO_Ambient_Drone_Set1_2",
+				"sounds/do2ambiance/DO_Ambient_Drone_Set1_3",
+				"sounds/do2ambiance/DO_Ambient_Drone_Set1_4",
+				"sounds/do2ambiance/DO_Ambient_Drone_Set1_5",
+				"sounds/do2ambiance/DO_Ambient_Drone_Set1_6",
+				"sounds/do2ambiance/DO_Ambient_Drone_Set1_7",
+				"sounds/do2ambiance/DO_Ambient_Drone_Set1_8",
+				"sounds/do2ambiance/DO_Ambient_Drone_Set1_9"
+			]
+		},
+		"do2.atmospherics.cavegust.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2ambiance/DO_Atmospherics_CaveGust_1",
+				"sounds/do2ambiance/DO_Atmospherics_CaveGust_2",
+				"sounds/do2ambiance/DO_Atmospherics_CaveGust_3",
+				"sounds/do2ambiance/DO_Atmospherics_CaveGust_4",
+				"sounds/do2ambiance/DO_Atmospherics_CaveGust_5",
+				"sounds/do2ambiance/DO_Atmospherics_CaveGust_6",
+				"sounds/do2ambiance/DO_Atmospherics_CaveGust_7",
+				"sounds/do2ambiance/DO_Atmospherics_CaveGust_8",
+				"sounds/do2ambiance/DO_Atmospherics_CaveGust_9"
+			]
+		},
+		"do2.atmospherics.ghostlywhisper.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2ambiance/DO_Atmospherics_GhostlyWhisper1",
+				"sounds/do2ambiance/DO_Atmospherics_GhostlyWhisper2"
+			]
+		},
+		"do2.atmospherics.icecracks.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2ambiance/DO_Atmospherics_IceCracks_1",
+				"sounds/do2ambiance/DO_Atmospherics_IceCracks_2",
+				"sounds/do2ambiance/DO_Atmospherics_IceCracks_3",
+				"sounds/do2ambiance/DO_Atmospherics_IceCracks_4",
+				"sounds/do2ambiance/DO_Atmospherics_IceCracks_5",
+				"sounds/do2ambiance/DO_Atmospherics_IceCracks_6",
+				"sounds/do2ambiance/DO_Atmospherics_IceCracks_7",
+				"sounds/do2ambiance/DO_Atmospherics_IceCracks_8",
+				"sounds/do2ambiance/DO_Atmospherics_IceCracks_9"
+			]
+		},
+		"do2.atmospherics.metalcreak.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_1",
+				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_2",
+				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_3",
+				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_4",
+				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_5",
+				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_6",
+				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_7",
+				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_8",
+				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_9"
+			]
+		},
+		"do2.atmospherics.woodcreak.random": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_1",
+				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_2",
+				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_3",
+				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_4",
+				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_5",
+				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_6",
+				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_7",
+				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_8",
+				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_9"
+			]
 		}
 	}
 }
