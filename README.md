@@ -1,18 +1,31 @@
 # DO2-Asset-Loader
 Addon to load TangoTek's Decked Out 2 assets onto the Minecraft Bedrock Edition, for use in community map ports. <br>
-All rights belong to TangoTek, MoselBop, Del Chupenebray, Joel Bickford, and all creators associated with Decked Out 2 in any form. <br>
-This is a Community project for use in Community works without intent for monetization. <br>
-This project MAY NOT be used for monetized contents.
+> All rights belong to TangoTek, MoselBop, Del Chupenebray, Joel Bickford, and all creators associated with Decked Out 2 in any form. <br>
+> This is a Community project for use in Community works without intent for monetization. <br>
+> This project MAY NOT be used for monetized contents. <br>
 
-### Card Sounds
-Please see https://github.com/BoxOfDevs/DO2-Asset-Loader/tree/main/AvgZing%20Decked%20Out%202%20Asset%20Loader%20RP/sounds/ for a full list of available sounds. They are split into subfolders, but this is ignored in the in-game naming scheme. Some files have DO as a prefix, but the in-game naming scheme will use do2 for consistency. See below for examples.<br>
-Cards can be played with /playsound do2.<cardname>, where spaces in the cardname are dots. For example, /playsound do2.adrenaline.rush, /playsound do2.avalanche, or /playsound do2.stumble. The same principle applies to all other individual sounds, such as /playsound do2.dungeontaunt.1. Capitalization is ignored.<br>
-In instances where there are multiple versions of a sound, the number for the version is replaced with "random" and all sounds are randomized. EX: /playsound do2.clank.clankblocked.set1.4 becomes /playsound do2.clank.clankblocked.set1.random. The exception to this is the Ambient Deepfrost Drones, which are do2.ambient.drone.deepfrost.random, as well as both do2.ambient.drone.deepfrost.random1 and do2.ambient.drone.deepfrost.random2, where random includes all 18 tracks, while random 1 and random 2 each include only 9 to replicate the original game's 9 discs per dropper. <br>
-<br>
-As of version 1.1.0, sounds only play 16 blocks away and have falloff. This will be adjusted in a future version, but I wanted to get this out sooner than later, particularly as a proof of concept. <br> <br>
-These will likely change to play 256 blocks away without falloff, so that they can be triggered by command blocks directly at their processors (such as the card processor) -- without needing to transfer the sounds to any centralized processing systems. It will not be hard to adjust this number based on community feedback, so please let me know if this should be raised or lowered at all.
+Contributions are welcome! If you wish to contribute to the project, please mention it in a relevant category or discussion on the Discussions page and submit a pull request when you're ready. Thanks for your help!
+
+## Usage Guide
+Please refer to the various pages on the wiki (https://github.com/BoxOfDevs/DO2-Asset-Loader/wiki/) for instructions for use of this addon. <br>
+> Lists of all sounds are available on each of the wiki's sound pages. <br>
+
+### Installation Instructions
+To add this addon to your world, follow the following steps:
+1. Download the latest .mcaddon from the releases page (https://github.com/BoxOfDevs/DO2-Asset-Loader/releases/)
+2. Once downloaded, open your download manager or file manager, and click on the .mcaddon file
+3. If prompted, select "Open In: Minecraft"
+4. Allow minecraft to automatically open and the addon to import into your game
+5. Either create a new world or edit an existing world. In that menu, navigate to the Resource Packs tab.
+6. Activate the Decked Out 2 Asset Loader resource pack. The behavior pack will automatically activate too.
+7. You're all set! The addon is installed and added to your world, ready for use.
+
+If updating the version of the addon -- edit the world, then activate the latest version and remove the older version. The old version can be deleted from your game in in-game settings --> storage. 
 
 ## To-Do List:
+Currently, 61 sounds are implemented, using 165 unique audio files. <br>
+> Please consult the Discussions page (https://github.com/BoxOfDevs/DO2-Asset-Loader/discussions/) for development updates about each list item. <br>
+On that discussions page and on the issues page, please feel free to share your own thoughts, feedback, and ideas for the project. <br>
 - [X] Card Sounds Placeholder 
 - [X] Event Sound Placeholders (Hazard, Clank, Heartbeat, Shulkers, Recycles, Purchases)
 - [X] Atmospheric and Ambient Sound Placeholders
