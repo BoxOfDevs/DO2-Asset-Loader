@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "bridge:adequatemug",
+            "category": "nature",
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:icon": "bridge_adequatemug"
+        }
+    }
+}

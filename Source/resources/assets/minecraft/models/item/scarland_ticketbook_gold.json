@@ -1,0 +1,70 @@
+{
+	"credit": "by Hoffen _InkGhoul",
+	"texture_size": [170, 170],
+	"parent":"minecraft:item/carved_pumpkin",
+	"textures": {
+		"1": "custom:item/scarland_ticketbook_texture"
+	},
+	"elements": [
+		{
+			"from": [-8, 0, 0],
+			"to": [26.5, 17, 0.5],
+			"faces": {
+				"north": {"uv": [8.09412, 3.76471, 15.43529, 7.15294], "texture": "#1"},
+				"east": {"uv": [15.62353, 3.76471, 15.52941, 7.15294], "texture": "#1"},
+				"south": {"uv": [8.09412, 8.37647, 15.62353, 11.95294], "texture": "#1"},
+				"west": {"uv": [15.71765, 3.76471, 15.81176, 7.15294], "texture": "#1"},
+				"up": {"uv": [8.09412, 7.24706, 15.43529, 7.34118], "texture": "#1"},
+				"down": {"uv": [15.43529, 7.43529, 8.09412, 7.52941], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [70.25, 0, 0],
+			"translation": [-6.25, -4, 8.5],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [33.2, -87.92, -46.51],
+			"translation": [-8, -4.25, 3.25],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [156.07, 16.36, 177.87],
+			"translation": [1, 1.5, -3.5],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-7.25, -4.51, 4.94],
+			"translation": [2.5, 2.25, 0.25],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"translation": [0, 3, 3.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [180, 0, 150],
+			"translation": [0.75, 0.5, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [-0.5, -1, 0]
+		},
+		"fixed": {
+			"translation": [-1, 0, 7.5],
+			"scale": [0.7, 0.7, 1]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

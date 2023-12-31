@@ -1,0 +1,158 @@
+{
+	"credit": "CJMoseley (Moselbop) for TangoTek",
+	"textures": {
+		"0": "custom:item/do/deco/chiseled_glowing_netherbrick",
+		"particle": "custom:item/do/deco/chiseled_nether_bricks_glowing"
+	},
+	"elements": [
+		{
+			"from": [
+				-1,
+				-1,
+				-15.5
+			],
+			"to": [
+				17,
+				17,
+				-15.5
+			],
+			"faces": {
+				"north": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [
+						0,
+						0,
+						16,
+						16
+					],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [
+				90,
+				0,
+				0
+			],
+			"translation": [
+				-6,
+				-2.25,
+				0
+			]
+		},
+		"thirdperson_lefthand": {
+			"translation": [
+				0,
+				0,
+				2.25
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"firstperson_righthand": {
+			"translation": [
+				2.5,
+				0,
+				0
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"firstperson_lefthand": {
+			"translation": [
+				6.5,
+				0,
+				0
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"gui": {
+			"scale": [
+				0.8,
+				0.8,
+				0.8
+			]
+		},
+		"head": {
+			"translation": [
+				0,
+				-5,
+				-30.7
+			],
+			"scale": [
+				1.45,
+				1.45,
+				1.45
+			]
+		},
+		"fixed": {
+			"translation": [
+				0,
+				0,
+				18
+			],
+			"scale": [
+				1.78,
+				1.78,
+				1.78
+			]
+		}
+	}
+}

@@ -1,0 +1,1 @@
+reverted 'card_generic' parent model to use default 'item/generated' display properties.

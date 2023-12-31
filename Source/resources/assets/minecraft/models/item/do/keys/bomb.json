@@ -1,0 +1,9 @@
+{
+    
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "custom:item/do/keys/bomb"
+  }
+
+
+}

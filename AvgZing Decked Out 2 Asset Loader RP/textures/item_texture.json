@@ -1,5 +1,219 @@
 {
 	"resource_pack_name": "AvgZing Decked Out 2 Addon",
 	"texture_name": "atlas.items",
-	"texture_data": {}
+	"texture_data": {
+		"bridge_adequatemug": {
+			"textures": "textures/items/do2/artifacts/adequatemug"
+		},
+		"bridge_anoldfriendspickaxe": {
+			"textures": "textures/items/do2/artifacts/anoldfriendspickaxe"
+		},
+		"bridge_axeofthevoid": {
+			"textures": "textures/items/do2/artifacts/axeofthevoid"
+		},
+		"bridge_butchersapron": {
+			"textures": "textures/items/do2/artifacts/butchersapron"
+		},
+		"bridge_chiseloftheundeadsculptress": {
+			"textures": "textures/items/do2/artifacts/chiseloftheundeadsculptress"
+		},
+		"bridge_crookofthepinkshepherd": {
+			"textures": "textures/items/do2/artifacts/crookofthepinkshepherd"
+		},
+		"bridge_deathloop": {
+			"textures": "textures/items/do2/artifacts/deathloop"
+		},
+		"bridge_doggoneshades": {
+			"textures": "textures/items/do2/artifacts/doggoneshades"
+		},
+		"bridge_gemofgreatness": {
+			"textures": "textures/items/do2/artifacts/gemofgreatness"
+		},
+		"bridge_goathorns": {
+			"textures": "textures/items/do2/artifacts/goathorns"
+		},
+		"bridge_gogglesofsymmetry": {
+			"textures": "textures/items/do2/artifacts/gogglesofsymmetry"
+		},
+		"bridge_goldeneye": {
+			"textures": "textures/items/do2/artifacts/goldeneye"
+		},
+		"bridge_hiddenstash": {
+			"textures": "textures/items/do2/artifacts/hiddenstash"
+		},
+		"bridge_hoodofawyeh": {
+			"textures": "textures/items/do2/artifacts/hoodofawyeh"
+		},
+		"bridge_hypnoticbandanna": {
+			"textures": "textures/items/do2/artifacts/hypnoticbandanna"
+		},
+		"bridge_jarofswiftslime": {
+			"textures": "textures/items/do2/artifacts/jarofswiftslime"
+		},
+		"bridge_knightshelm": {
+			"textures": "textures/items/do2/artifacts/knightshelm"
+		},
+		"bridge_lorebook": {
+			"textures": "textures/items/do2/artifacts/lorebook"
+		},
+		"bridge_lunarpearl": {
+			"textures": "textures/items/do2/artifacts/lunarpearl"
+		},
+		"bridge_multigrainwaffle": {
+			"textures": "textures/items/do2/artifacts/multigrainwaffle"
+		},
+		"bridge_omegaeyeofdoombig": {
+			"textures": "textures/items/do2/artifacts/omegaeyeofdoombig"
+		},
+		"bridge_pappaslippers": {
+			"textures": "textures/items/do2/artifacts/pappaslippers"
+		},
+		"bridge_pocketwatchofshreep": {
+			"textures": "textures/items/do2/artifacts/pocketwatchofshreep"
+		},
+		"bridge_rocketship": {
+			"textures": "textures/items/do2/artifacts/rocketship"
+		},
+		"bridge_skadoodler": {
+			"textures": "textures/items/do2/artifacts/skadoodler"
+		},
+		"bridge_themasterskey": {
+			"textures": "textures/items/do2/artifacts/themasterskey"
+		},
+		"bridge_tntslab": {
+			"textures": "textures/items/do2/artifacts/tntslab"
+		},
+		"bridge_wandofgorgeousness": {
+			"textures": "textures/items/do2/artifacts/wandofgorgeousness"
+		},
+		"bridge_adrenaline_rush": {
+			"textures": "textures/items/do2/cards/adrenaline_rush"
+		},
+		"bridge_avalanche": {
+			"textures": "textures/items/do2/cards/avalanche"
+		},
+		"bridge_beast_master": {
+			"textures": "textures/items/do2/cards/beast_master"
+		},
+		"bridge_beast_sense": {
+			"textures": "textures/items/do2/cards/beast_sense"
+		},
+		"bridge_boots_of_striding": {
+			"textures": "textures/items/do2/cards/boots_of_striding"
+		},
+		"bridge_bounding_strides": {
+			"textures": "textures/items/do2/cards/bounding_strides"
+		},
+		"bridge_brilliance": {
+			"textures": "textures/items/do2/cards/brilliance"
+		},
+		"bridge_cash_cow": {
+			"textures": "textures/items/do2/cards/cash_cow"
+		},
+		"bridge_chill_step": {
+			"textures": "textures/items/do2/cards/chill_step"
+		},
+		"bridge_cold_snap": {
+			"textures": "textures/items/do2/cards/cold_snap"
+		},
+		"bridge_deep_pockets": {
+			"textures": "textures/items/do2/cards/deep_pockets"
+		},
+		"bridge_deepfrost": {
+			"textures": "textures/items/do2/cards/deepfrost"
+		},
+		"bridge_dungeon_lackey": {
+			"textures": "textures/items/do2/cards/dungeon_lackey"
+		},
+		"bridge_dungeon_repairs": {
+			"textures": "textures/items/do2/cards/dungeon_repairs"
+		},
+		"bridge_eerie_silence": {
+			"textures": "textures/items/do2/cards/eerie_silence"
+		},
+		"bridge_ember_seeker": {
+			"textures": "textures/items/do2/cards/ember_seeker"
+		},
+		"bridge_evasion": {
+			"textures": "textures/items/do2/cards/evasion"
+		},
+		"bridge_eyes_on_the_prize": {
+			"textures": "textures/items/do2/cards/eyes_on_the_prize"
+		},
+		"bridge_frost_focus": {
+			"textures": "textures/items/do2/cards/frost_focus"
+		},
+		"bridge_fuzzy_bunny_slippers": {
+			"textures": "textures/items/do2/cards/fuzzy_bunny_slippers"
+		},
+		"bridge_glorious_moment": {
+			"textures": "textures/items/do2/cards/glorious_moment"
+		},
+		"bridge_haste": {
+			"textures": "textures/items/do2/cards/haste"
+		},
+		"bridge_loot_and_scoot": {
+			"textures": "textures/items/do2/cards/loot_and_scoot"
+		},
+		"bridge_moment_of_clarity": {
+			"textures": "textures/items/do2/cards/moment_of_clarity"
+		},
+		"bridge_nimble_looting": {
+			"textures": "textures/items/do2/cards/nimble_looting"
+		},
+		"bridge_pay_to_win": {
+			"textures": "textures/items/do2/cards/pay_to_win"
+		},
+		"bridge_pirate_booty": {
+			"textures": "textures/items/do2/cards/pirate_booty"
+		},
+		"bridge_pork_chop_power": {
+			"textures": "textures/items/do2/cards/pork_chop_power"
+		},
+		"bridge_quickstep": {
+			"textures": "textures/items/do2/cards/quickstep"
+		},
+		"bridge_reckless_charge": {
+			"textures": "textures/items/do2/cards/reckless_charge"
+		},
+		"bridge_second_wind": {
+			"textures": "textures/items/do2/cards/second_wind"
+		},
+		"bridge_silent_runner": {
+			"textures": "textures/items/do2/cards/silent_runner"
+		},
+		"bridge_smash_and_grab": {
+			"textures": "textures/items/do2/cards/smash_and_grab"
+		},
+		"bridge_sneak": {
+			"textures": "textures/items/do2/cards/sneak"
+		},
+		"bridge_speed_run": {
+			"textures": "textures/items/do2/cards/speed_run"
+		},
+		"bridge_sprint": {
+			"textures": "textures/items/do2/cards/sprint"
+		},
+		"bridge_stability": {
+			"textures": "textures/items/do2/cards/stability"
+		},
+		"bridge_stumble": {
+			"textures": "textures/items/do2/cards/stumble"
+		},
+		"bridge_suit_up": {
+			"textures": "textures/items/do2/cards/suit_up"
+		},
+		"bridge_swagger": {
+			"textures": "textures/items/do2/cards/swagger"
+		},
+		"bridge_tactical_approach": {
+			"textures": "textures/items/do2/cards/tactical_approach"
+		},
+		"bridge_tread_lightly": {
+			"textures": "textures/items/do2/cards/tread_lightly"
+		},
+		"bridge_treasure_hunter": {
+			"textures": "textures/items/do2/cards/treasure_hunter"
+		}
+	}
 }
