@@ -1,0 +1,9 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bridge:do_key4_64"
+		},
+		"components": {}
+	}
+}

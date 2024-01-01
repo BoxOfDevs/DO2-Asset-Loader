@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "bridge:decked_out_lvl1_door",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/do2/decked_out_door"
+			},
+			"geometry": {
+				"default": "geometry.decked_out_lvl1_door"
+			},
+			"animations": {
+				"setup": "animation.lvl1door.setup"
+			},
+			"scripts": {
+				"animate": [
+					"setup"
+				]
+			},
+			"render_controllers": [
+				"controller.render.decked_out_lvl1_door"
+			],
+			"spawn_egg": {
+				"texture": "bridge_decked_out_lvl1_door_egg",
+				"texture_index": 0
+			}
+		}
+	}
+}

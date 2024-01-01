@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "atlas_tile": "bridge_entry_door_frame",
+    "flipbook_texture": "textures/blocks/do2/chiseled_glowing_deepslate",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_core",
+    "flipbook_texture": "textures/blocks/do2/chiseled_glowing_netherbrick1",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_1",
+    "flipbook_texture": "textures/blocks/do2/entry1",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_2",
+    "flipbook_texture": "textures/blocks/do2/entry2",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_3",
+    "flipbook_texture": "textures/blocks/do2/entry3",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_4",
+    "flipbook_texture": "textures/blocks/do2/entry4",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_5",
+    "flipbook_texture": "textures/blocks/do2/entry5",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_6",
+    "flipbook_texture": "textures/blocks/do2/entry6",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_7",
+    "flipbook_texture": "textures/blocks/do2/entry7",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_8",
+    "flipbook_texture": "textures/blocks/do2/entry8",
+    "ticks_per_frame": 1
+  },
+  {
+    "atlas_tile": "bridge_entry_door_9",
+    "flipbook_texture": "textures/blocks/do2/entry9",
+    "ticks_per_frame": 1
+  }
+]

@@ -24,16 +24,22 @@ If updating the version of the addon -- edit the world, then activate the latest
 
 ## To-Do List:
 Currently, 61 sounds are implemented, using 165 unique audio files. <br>
+Currently, all cards and treasure items are implemented, with placeholder textures and no lore. <br>
+Currently,  both animated doors are implemented fully. <br>
 > Please consult the Discussions page (https://github.com/BoxOfDevs/DO2-Asset-Loader/discussions/) for development updates about each list item. <br>
 On that discussions page and on the issues page, please feel free to share your own thoughts, feedback, and ideas for the project. <br>
 - [X] Card Sounds Placeholder 
 - [X] Event Sound Placeholders (Hazard, Clank, Heartbeat, Shulkers, Recycles, Purchases)
 - [X] Atmospheric and Ambient Sound Placeholders
-- [ ] Fix range and falloff of audio placeholders
-- [ ] Cards as Unique Items (With textures and lore)
-- [ ] Treasure and Misc. DO2 Items as Unique Items
+- [X] Fix range and falloff of audio placeholders
+- [ ] Set audio categories (not just neutral)
+- [X] Cards as Unique Items (With textures and lore)
+- [X] Treasure and Misc. DO2 Items as Unique Items
+- [ ] Polish card textures and lore
+- [ ] Trophies, Gifts, Caps, and other miscellaneous models
 - [ ] Shop Items as Helmets (to put on armor stands in shops)
-- [ ] Animated Doors (Front Door and Lvl1 textures)
+- [X] Animated Doors (Front Door and Lvl1 textures)
+- [ ] Holiday Entry Door
 - [ ] Usage Guide
 - [ ] Address Community Feedback
 - [ ] FUTURE: Config? 

@@ -3,131 +3,163 @@
 	"sound_definitions": {
 		"do2.adrenaline.rush": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/adrenaline_rush"]
+			"sounds": ["sounds/do2cards/adrenaline_rush"],
+			"max_distance": 256.0
 		},
 		"do2.avalanche": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/avalanche"]
+			"sounds": ["sounds/do2cards/avalanche"],
+			"max_distance": 256.0
 		},
 		"do2.beast.sense": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/beast_sense"]
+			"sounds": ["sounds/do2cards/beast_sense"],
+			"max_distance": 256.0
 		},
 		"do2.bounding.strides": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/bounding_strides"]
+			"sounds": ["sounds/do2cards/bounding_strides"],
+			"max_distance": 256.0
 		},
 		"do2.brilliance": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/brilliance"]
+			"sounds": ["sounds/do2cards/brilliance"],
+			"max_distance": 256.0
 		},
 		"do2.cash.cow": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/cash_cow"]
+			"sounds": ["sounds/do2cards/cash_cow"],
+			"max_distance": 256.0
 		},
 		"do2.chill.step": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/chill_step"]
+			"sounds": ["sounds/do2cards/chill_step"],
+			"max_distance": 256.0
 		},
 		"do2.cold.snap": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/cold_snap"]
+			"sounds": ["sounds/do2cards/cold_snap"],
+			"max_distance": 256.0
 		},
 		"do2.deep.frost": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/deep_frost"]
+			"sounds": ["sounds/do2cards/deep_frost"],
+			"max_distance": 256.0
 		},
 		"do2.dungeon.repairs": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/dungeon_repairs"]
+			"sounds": ["sounds/do2cards/dungeon_repairs"],
+			"max_distance": 256.0
 		},
 		"do2.eerie.silence": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/eerie_silence"]
+			"sounds": ["sounds/do2cards/eerie_silence"],
+			"max_distance": 256.0
 		},
 		"do2.ember.seeker": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/ember_seeker"]
+			"sounds": ["sounds/do2cards/ember_seeker"],
+			"max_distance": 256.0
 		},
 		"do2.evasion": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/evasion"]
+			"sounds": ["sounds/do2cards/evasion"],
+			"max_distance": 256.0
 		},
 		"do2.eyes.on.the.prize": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/eyes_on_the_prize"]
+			"sounds": ["sounds/do2cards/eyes_on_the_prize"],
+			"max_distance": 256.0
 		},
 		"do2.frost.focus": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/frost_focus"]
+			"sounds": ["sounds/do2cards/frost_focus"],
+			"max_distance": 256.0
 		},
 		"do2.haste": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/haste"]
+			"sounds": ["sounds/do2cards/haste"],
+			"max_distance": 256.0
 		},
 		"do2.loot.and.scoot": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/loot_and_scoot"]
+			"sounds": ["sounds/do2cards/loot_and_scoot"],
+			"max_distance": 256.0
 		},
 		"do2.moment.of.clarity": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/moment_of_clarity"]
+			"sounds": ["sounds/do2cards/moment_of_clarity"],
+			"max_distance": 256.0
 		},
 		"do2.nimble.looting": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/nimble_looting"]
+			"sounds": ["sounds/do2cards/nimble_looting"],
+			"max_distance": 256.0
 		},
 		"do2.pay.to.win": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/pay_to_win"]
+			"sounds": ["sounds/do2cards/pay_to_win"],
+			"max_distance": 256.0
 		},
 		"do2.quickstep": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/quickstep"]
+			"sounds": ["sounds/do2cards/quickstep"],
+			"max_distance": 256.0
 		},
 		"do2.reckless.charge": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/reckless_charge"]
+			"sounds": ["sounds/do2cards/reckless_charge"],
+			"max_distance": 256.0
 		},
 		"do2.second.wind": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/second_wind"]
+			"sounds": ["sounds/do2cards/second_wind"],
+			"max_distance": 256.0
 		},
 		"do2.smash.and.grab": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/smash_and_grab"]
+			"sounds": ["sounds/do2cards/smash_and_grab"],
+			"max_distance": 256.0
 		},
 		"do2.sneak": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/sneak"]
+			"sounds": ["sounds/do2cards/sneak"],
+			"max_distance": 256.0
 		},
 		"do2.sprint": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/sprint"]
+			"sounds": ["sounds/do2cards/sprint"],
+			"max_distance": 256.0
 		},
 		"do2.stability": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/stability"]
+			"sounds": ["sounds/do2cards/stability"],
+			"max_distance": 256.0
 		},
 		"do2.stumble": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/stumble"]
+			"sounds": ["sounds/do2cards/stumble"],
+			"max_distance": 256.0
 		},
 		"do2.swagger": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/swagger"]
+			"sounds": ["sounds/do2cards/swagger"],
+			"max_distance": 256.0
 		},
 		"do2.tread.lightly": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/tread_lightly"]
+			"sounds": ["sounds/do2cards/tread_lightly"],
+			"max_distance": 256.0
 		},
 		"do2.treasure.hunter": {
 			"category": "neutral",
-			"sounds": ["sounds/do2cards/treasure_hunter"]
+			"sounds": ["sounds/do2cards/treasure_hunter"],
+			"max_distance": 256.0
 		},
 		"do2.artifact.artifactretrieval": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Artifact_ArtifactRetrieval_"]
+			"sounds": ["sounds/do2events/DO_Artifact_ArtifactRetrieval_"],
+			"max_distance": 256.0
 		},
 		"do2.card.recycle.random": {
 			"category": "neutral",
@@ -140,7 +172,8 @@
 				"sounds/do2events/DO_Card_Recycle_6",
 				"sounds/do2events/DO_Card_Recycle_7",
 				"sounds/do2events/DO_Card_Recycle_8"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.clank.clankblocked.set1.random": {
 			"category": "neutral",
@@ -154,7 +187,8 @@
 				"sounds/do2events/DO_Clank_ClankBlocked_Set1_7",
 				"sounds/do2events/DO_Clank_ClankBlocked_Set1_8",
 				"sounds/do2events/DO_Clank_ClankBlocked_Set1_9"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.currency.crownconversion.random": {
 			"category": "neutral",
@@ -166,7 +200,8 @@
 				"sounds/do2events/DO_Currency_CrownConversion_Se5",
 				"sounds/do2events/DO_Currency_CrownConversion_Se6",
 				"sounds/do2events/DO_Currency_CrownConversion_Se7"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.currency.frostemberpurchase.random": {
 			"category": "neutral",
@@ -177,43 +212,53 @@
 				"sounds/do2events/DO_Currency_FrostEmberPurchase4",
 				"sounds/do2events/DO_Currency_FrostEmberPurchase5",
 				"sounds/do2events/DO_Currency_FrostEmberPurchase6"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.deepfrost.openingexplosion": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Deepfrost_OpeningExplosion"]
+			"sounds": ["sounds/do2events/DO_Deepfrost_OpeningExplosion"],
+			"max_distance": 256.0
 		},
 		"do2.difficulty.deadly": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Difficulty_Deadly"]
+			"sounds": ["sounds/do2events/DO_Difficulty_Deadly"],
+			"max_distance": 256.0
 		},
 		"do2.difficulty.deepfrost": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Difficulty_Deepfrost"]
+			"sounds": ["sounds/do2events/DO_Difficulty_Deepfrost"],
+			"max_distance": 256.0
 		},
 		"do2.difficulty.easy": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Difficulty_Easy"]
+			"sounds": ["sounds/do2events/DO_Difficulty_Easy"],
+			"max_distance": 256.0
 		},
 		"do2.difficulty.hard": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Difficulty_Hard"]
+			"sounds": ["sounds/do2events/DO_Difficulty_Hard"],
+			"max_distance": 256.0
 		},
 		"do2.difficulty.medium": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Difficulty_Medium"]
+			"sounds": ["sounds/do2events/DO_Difficulty_Medium"],
+			"max_distance": 256.0
 		},
 		"do2.dungeontaunt.1": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_DungeonTaunt_1"]
+			"sounds": ["sounds/do2events/DO_DungeonTaunt_1"],
+			"max_distance": 256.0
 		},
 		"do2.entrance.doordrone.set1.4": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Entrance_DoorDrone_Set1_4"]
+			"sounds": ["sounds/do2events/DO_Entrance_DoorDrone_Set1_4"],
+			"max_distance": 256.0
 		},
 		"do2.gameover.dungeonreset": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_GameOver_DungeonReset"]
+			"sounds": ["sounds/do2events/DO_GameOver_DungeonReset"],
+			"max_distance": 256.0
 		},
 		"do2.hazard.hazardblocked.set1.random": {
 			"category": "neutral",
@@ -227,7 +272,8 @@
 				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_7",
 				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_8",
 				"sounds/do2events/DO_Hazard_HazardBlocked_Set1_9"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.hazard.hazardtrigger.set1.random": {
 			"category": "neutral",
@@ -241,7 +287,8 @@
 				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_7",
 				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_8",
 				"sounds/do2events/DO_Hazard_HazardTrigger_Set1_9"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.heartbeat.1": {
 			"category": "neutral",
@@ -253,7 +300,8 @@
 				"sounds/do2events/DO_Holloween_EntranceTune_1",
 				"sounds/do2events/DO_Holloween_EntranceTune_2",
 				"sounds/do2events/DO_Holloween_EntranceTune_3"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.holloween.failure.random": {
 			"category": "neutral",
@@ -261,19 +309,23 @@
 				"sounds/do2events/DO_Holloween_Failure_1",
 				"sounds/do2events/DO_Holloween_Failure_2",
 				"sounds/do2events/DO_Holloween_Failure_3"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.holloween.success.1": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Holloween_Success_1"]
+			"sounds": ["sounds/do2events/DO_Holloween_Success_1"],
+			"max_distance": 256.0
 		},
 		"do2.shulker.loaded.1": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Shulker_Loaded_1"]
+			"sounds": ["sounds/do2events/DO_Shulker_Loaded_1"],
+			"max_distance": 256.0
 		},
 		"do2.shulker.loaded.tick.thud": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Shulker_Loaded_Tick+Thud"]
+			"sounds": ["sounds/do2events/DO_Shulker_Loaded_Tick+Thud"],
+			"max_distance": 256.0
 		},
 		"do2.ambient.drone.deepfrost.random": {
 			"category": "neutral",
@@ -296,7 +348,8 @@
 				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_16",
 				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_17",
 				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_18"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.ambient.drone.deepfrost.random1": {
 			"category": "neutral",
@@ -310,7 +363,8 @@
 				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_7",
 				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_8",
 				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_9"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.ambient.drone.deepfrost.random2": {
 			"category": "neutral",
@@ -324,7 +378,8 @@
 				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_16",
 				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_17",
 				"sounds/do2ambiance/DO_Ambient_Drone_Deepfrost_18"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.ambient.drone.set1.random": {
 			"category": "neutral",
@@ -338,7 +393,8 @@
 				"sounds/do2ambiance/DO_Ambient_Drone_Set1_7",
 				"sounds/do2ambiance/DO_Ambient_Drone_Set1_8",
 				"sounds/do2ambiance/DO_Ambient_Drone_Set1_9"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.atmospherics.cavegust.random": {
 			"category": "neutral",
@@ -352,14 +408,16 @@
 				"sounds/do2ambiance/DO_Atmospherics_CaveGust_7",
 				"sounds/do2ambiance/DO_Atmospherics_CaveGust_8",
 				"sounds/do2ambiance/DO_Atmospherics_CaveGust_9"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.atmospherics.ghostlywhisper.random": {
 			"category": "neutral",
 			"sounds": [
 				"sounds/do2ambiance/DO_Atmospherics_GhostlyWhisper1",
 				"sounds/do2ambiance/DO_Atmospherics_GhostlyWhisper2"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.atmospherics.icecracks.random": {
 			"category": "neutral",
@@ -373,7 +431,8 @@
 				"sounds/do2ambiance/DO_Atmospherics_IceCracks_7",
 				"sounds/do2ambiance/DO_Atmospherics_IceCracks_8",
 				"sounds/do2ambiance/DO_Atmospherics_IceCracks_9"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.atmospherics.metalcreak.random": {
 			"category": "neutral",
@@ -387,7 +446,8 @@
 				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_7",
 				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_8",
 				"sounds/do2ambiance/DO_Atmospherics_MetalCreak_9"
-			]
+			],
+			"max_distance": 256.0
 		},
 		"do2.atmospherics.woodcreak.random": {
 			"category": "neutral",
@@ -401,7 +461,8 @@
 				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_7",
 				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_8",
 				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_9"
-			]
+			],
+			"max_distance": 256.0
 		}
 	}
 }

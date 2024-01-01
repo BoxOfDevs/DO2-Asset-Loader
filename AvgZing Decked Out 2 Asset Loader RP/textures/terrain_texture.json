@@ -3,5 +3,39 @@
 	"padding": 8,
 	"resource_pack_name": "AvgZing Decked Out 2 Addon",
 	"texture_name": "atlas.terrain",
-	"texture_data": {}
+	"texture_data": {
+		"bridge_entry_door_frame": {
+			"textures": "textures/blocks/do2/chiseled_glowing_deepslate"
+		},
+		"bridge_entry_door_core": {
+			"textures": "textures/blocks/do2/chiseled_glowing_netherbrick1"
+		},
+		"bridge_entry_door_1": {
+			"textures": "textures/blocks/do2/entry1"
+		},
+		"bridge_entry_door_2": {
+			"textures": "textures/blocks/do2/entry2"
+		},
+		"bridge_entry_door_3": {
+			"textures": "textures/blocks/do2/entry3"
+		},
+		"bridge_entry_door_4": {
+			"textures": "textures/blocks/do2/entry4"
+		},
+		"bridge_entry_door_5": {
+			"textures": "textures/blocks/do2/entry5"
+		},
+		"bridge_entry_door_6": {
+			"textures": "textures/blocks/do2/entry6"
+		},
+		"bridge_entry_door_7": {
+			"textures": "textures/blocks/do2/entry7"
+		},
+		"bridge_entry_door_8": {
+			"textures": "textures/blocks/do2/entry8"
+		},
+		"bridge_entry_door_9": {
+			"textures": "textures/blocks/do2/entry9"
+		}
+	}
 }

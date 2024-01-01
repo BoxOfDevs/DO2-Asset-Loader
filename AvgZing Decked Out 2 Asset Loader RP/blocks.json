@@ -3,5 +3,49 @@
 		1,
 		1,
 		0
-	]
+	],
+	"bridge:entry_door_frame": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_frame"
+	},
+	"bridge:entry_door_core": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_core"
+	},
+	"bridge:entry_door_1": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_1"
+	},
+	"bridge:entry_door_2": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_2"
+	},
+	"bridge:entry_door_3": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_3"
+	},
+	"bridge:entry_door_4": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_4"
+	},
+	"bridge:entry_door_5": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_5"
+	},
+	"bridge:entry_door_6": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_6"
+	},
+	"bridge:entry_door_7": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_7"
+	},
+	"bridge:entry_door_8": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_8"
+	},
+	"bridge:entry_door_9": {
+		"sound": "stone",
+		"textures": "bridge_entry_door_9"
+	}
 }

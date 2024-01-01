@@ -214,6 +214,39 @@
 		},
 		"bridge_treasure_hunter": {
 			"textures": "textures/items/do2/cards/treasure_hunter"
+		},
+		"bridge_bomb": {
+			"textures": "textures/items/do2/keys/bomb"
+		},
+		"bridge_do_key1_64": {
+			"textures": "textures/items/do2/keys/do_key1_64"
+		},
+		"bridge_do_key4_64": {
+			"textures": "textures/items/do2/keys/do_key4_64"
+		},
+		"bridge_do_key6_64": {
+			"textures": "textures/items/do2/keys/do_key6_64"
+		},
+		"bridge_toolbox": {
+			"textures": "textures/items/do2/keys/toolbox"
+		},
+		"bridge_do_coin": {
+			"textures": "textures/items/do2/do_coin"
+		},
+		"bridge_do_crown": {
+			"textures": "textures/items/do2/do_crown"
+		},
+		"bridge_do_ember": {
+			"textures": "textures/items/do2/do_ember"
+		},
+		"bridge_do_tome": {
+			"textures": "textures/items/do2/do_tome"
+		},
+		"bridge_do_frozenshard6": {
+			"textures": "textures/items/do2/do_frozenshard6"
+		},
+		"bridge_decked_out_lvl1_door_egg": {
+			"textures": "textures/items/do2/chiseled_deepslate_glowing"
 		}
 	}
 }

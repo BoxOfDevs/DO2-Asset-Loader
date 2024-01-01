@@ -1,1 +1,9 @@
-{"format_version":"1.10.0","minecraft:item":{"description":{"identifier":"bridge:pay_to_win"},"components":{}}}
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bridge:pay_to_win"
+		},
+		"components": {}
+	}
+}

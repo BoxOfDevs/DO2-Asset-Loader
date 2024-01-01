@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.lvl1door",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 8,
+				"visible_bounds_offset": [0, 3, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-24, 32, -8],
+							"size": [32, 64, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 32]},
+								"east": {"uv": [0, 32], "uv_size": [8, 32]},
+								"south": {"uv": [16, 0], "uv_size": [16, 32]},
+								"west": {"uv": [32, 0], "uv_size": [8, 32]},
+								"up": {"uv": [8, 32], "uv_size": [32, 8]},
+								"down": {"uv": [8, 40], "uv_size": [32, -8]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
