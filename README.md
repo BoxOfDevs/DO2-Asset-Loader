@@ -4,7 +4,9 @@ Addon to load TangoTek's Decked Out 2 assets onto the Minecraft Bedrock Edition,
 > This is a Community project for use in Community works without intent for monetization. <br>
 > This project MAY NOT be used for monetized contents. <br>
 
-Contributions are welcome! If you wish to contribute to the project, please mention it in a relevant category or discussion on the Discussions page and submit a pull request when you're ready. Thanks for your help!
+Contributions are welcome! If you wish to contribute to the project, please mention it in a relevant category or discussion on the Discussions page and submit a pull request when you're ready. Thanks for your help! <br>
+<br>
+**As of Version 1.2.0, all gameplay-necessary assets are implemented! Polish and minor tweaks are necessary in future releases, but nothing should break asset usage. It is safe and recommended to begin using this as of v1.2.0, following the usage guide for installation and updating in the future.**
 
 ## Usage Guide
 Please refer to the various pages on the wiki (https://github.com/BoxOfDevs/DO2-Asset-Loader/wiki/) for instructions for use of this addon. <br>
