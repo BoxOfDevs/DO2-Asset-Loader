@@ -156,6 +156,11 @@
 			"sounds": ["sounds/do2cards/treasure_hunter"],
 			"max_distance": 256.0
 		},
+		"do2.pirates.booty": {
+			"category": "neutral",
+			"sounds": ["sounds/do2cards/pirates_booty"],
+			"max_distance": 256.0
+		},
 		"do2.artifact.artifactretrieval": {
 			"category": "neutral",
 			"sounds": ["sounds/do2events/DO_Artifact_ArtifactRetrieval_"],
@@ -245,6 +250,11 @@
 			"sounds": ["sounds/do2events/DO_Difficulty_Medium"],
 			"max_distance": 256.0
 		},
+		"do2.dungeon.ready.100": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/DO_Dungeon_Ready_100"],
+			"max_distance": 256.0
+		},
 		"do2.dungeontaunt.1": {
 			"category": "neutral",
 			"sounds": ["sounds/do2events/DO_DungeonTaunt_1"],
@@ -325,6 +335,55 @@
 		"do2.shulker.loaded.tick.thud": {
 			"category": "neutral",
 			"sounds": ["sounds/do2events/DO_Shulker_Loaded_Tick+Thud"],
+			"max_distance": 256.0
+		},
+		"do2.dungeon.ready": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/dungeon_ready"],
+			"max_distance": 256.0
+		},
+		"do2.exit.1": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/exit_1"],
+			"max_distance": 256.0
+		},
+		"do2.exit.2": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/exit_2"],
+			"max_distance": 256.0
+		},
+		"do2.warden.special.random": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/do2events/hi_im_cleo",
+					"weight": 9
+				},
+				{
+					"name": "sounds/do2events/flee",
+					"weight": 1
+				}
+			],
+			"max_distance": 256.0
+		},
+		"do2.level1.door.open": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/level1_door_open"],
+			"max_distance": 256.0
+		},
+		"do2.take.your.items": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/take_your_items"],
+			"max_distance": 256.0
+		},
+		"do2.tcg": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/tcg"],
+			"max_distance": 256.0
+		},
+		"do2.thud": {
+			"category": "neutral",
+			"sounds": ["sounds/do2events/thud"],
 			"max_distance": 256.0
 		},
 		"do2.ambient.drone.deepfrost.random": {
@@ -462,6 +521,11 @@
 				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_8",
 				"sounds/do2ambiance/DO_Atmospherics_WoodCreak_9"
 			],
+			"max_distance": 256.0
+		},
+		"do2.atmospherics.wind.woosh": {
+			"category": "neutral",
+			"sounds": ["sounds/do2ambiance/wind_whoosh"],
 			"max_distance": 256.0
 		}
 	}
