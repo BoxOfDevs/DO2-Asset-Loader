@@ -47,5 +47,152 @@
 	"bridge:entry_door_9": {
 		"sound": "stone",
 		"textures": "bridge_entry_door_9"
+	}, 
+	"bridge:ember_adrenaline_rush":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_avalanche":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_beast_master":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_beast_sense":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_boots_of_striding":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_bounding_strides":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_brilliance":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_cash_cow":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_chill_step":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_cold_snap":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_deep_pockets":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_deepfrost":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_dungeon_lackey":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_dungeon_repairs":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_eerie_silence":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_ember_seeker":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_evasion":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_eyes_on_the_prize":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_frost_focus":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_fuzzy_bunny_slippers":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_glorious_moment":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_haste":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_loot_and_scoot":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_moment_of_clarity":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_nimble_looting":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_pay_to_win":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_pirate_booty":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_pork_chop_power":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_quickstep":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_reckless_charge":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_second_wind":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_silent_runner":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_smash_and_grab":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_sneak":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_speed_run":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_sprint":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_stability":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_stumble":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_suit_up":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_swagger":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_tactical_approach":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_tread_lightly":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_treasure_hunter":{
+		"sound": "stone"
+	}, 
+	"bridge:ember_tome":{
+		"sound": "stone"
+	}, 
+	"bridge:crowns_frozenshard6":{
+		"sound": "stone"
+	}, 
+	"bridge:crowns_pay_to_win":{
+		"sound": "stone"
+	}, 
+	"bridge:crowns_pork_chop_power":{
+		"sound": "stone"
+	}, 
+	"bridge:crowns_tactical_approach":{
+		"sound": "stone"
+	}, 
+	"bridge:crowns_do_key6_64":{
+		"sound": "stone"
 	}
 }

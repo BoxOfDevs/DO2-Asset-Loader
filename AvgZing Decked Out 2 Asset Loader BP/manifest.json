@@ -6,7 +6,7 @@
 		],
 		"generated_with": {
 			"bridge": [
-				"2.7.8"
+				"2.7.10"
 			],
 			"dash": [
 				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
@@ -19,7 +19,7 @@
 		"min_engine_version": [
 			1,
 			20,
-			40
+			50
 		],
 		"uuid": "079371f4-4914-486b-9e60-df51512b51ab",
 		"version": [
@@ -37,16 +37,27 @@
 				3,
 				0
 			]
+		},
+		{
+			"type": "script",
+			"uuid": "a856c310-4940-4f9c-843d-df568d9e83f1",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"language": "javascript",
+			"entry": "scripts/lore.js"
 		}
 	],
 	"dependencies": [
 		{
-			"uuid": "901b6374-6356-41ab-88e3-33eb0f3ae264",
-			"version": [
-				1,
-				3,
-				0
-			]
+			"module_name": "@minecraft/server",
+			"version": "1.8.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
 		}
 	]
 }

@@ -250,11 +250,6 @@
 			"sounds": ["sounds/do2events/DO_Difficulty_Medium"],
 			"max_distance": 256.0
 		},
-		"do2.dungeon.ready.100": {
-			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Dungeon_Ready_100"],
-			"max_distance": 256.0
-		},
 		"do2.dungeontaunt.1": {
 			"category": "neutral",
 			"sounds": ["sounds/do2events/DO_DungeonTaunt_1"],
@@ -334,7 +329,7 @@
 		},
 		"do2.shulker.loaded.tick.thud": {
 			"category": "neutral",
-			"sounds": ["sounds/do2events/DO_Shulker_Loaded_Tick+Thud"],
+			"sounds": ["sounds/do2events/DO_Shulker_Loaded_Tick_Thud"],
 			"max_distance": 256.0
 		},
 		"do2.dungeon.ready": {

@@ -1,0 +1,18 @@
+{
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bridge:crowns_tactical_approach"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.crownshop",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bridge_crowns_tactical_approach",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:light_emission": 3
+    }
+  }
+}

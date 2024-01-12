@@ -247,6 +247,9 @@
 		},
 		"bridge_decked_out_lvl1_door_egg": {
 			"textures": "textures/items/do2/chiseled_deepslate_glowing"
+		},
+		"bridge_do2_hood" :{
+			"textures": "textures/items/do2/tangohood"
 		}
 	}
 }

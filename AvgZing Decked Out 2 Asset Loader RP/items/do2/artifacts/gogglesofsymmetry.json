@@ -3,7 +3,7 @@
     "minecraft:item": {
         "description": {
             "identifier": "bridge:gogglesofsymmetry",
-            "category": "nature",
+            "category": "items",
             "is_experimental": false
         },
         "components": {
