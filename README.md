@@ -6,7 +6,7 @@ Addon to load TangoTek's Decked Out 2 assets onto the Minecraft Bedrock Edition,
 
 Contributions are welcome! If you wish to contribute to the project, please mention it in a relevant category or discussion on the Discussions page and submit a pull request when you're ready. Thanks for your help! <br>
 <br>
-**As of Version 1.2.0, all gameplay-necessary assets are implemented! Polish and minor tweaks are necessary in future releases, but nothing should break asset usage. It is safe and recommended to begin using this as of v1.2.0, following the usage guide for installation and updating in the future.**
+**As of Version 1.4.0, all game-necessary assets are implemented! It is safe and recommended to begin using this as of v1.4.0, following the usage guide for installation and updating in the future.**
 
 ## Usage Guide
 Please refer to the various pages on the wiki (https://github.com/BoxOfDevs/DO2-Asset-Loader/wiki/) for instructions for use of this addon. <br>
@@ -26,8 +26,9 @@ If updating the version of the addon -- edit the world, then activate the latest
 
 ## To-Do List:
 Currently, 61 sounds are implemented, using 165 unique audio files. <br>
-Currently, all cards and treasure items are implemented, with placeholder textures and no lore. <br>
-Currently,  both animated doors are implemented fully. <br>
+Currently, all cards and treasure items are implemented. <br>
+Currently, both animated doors are implemented fully. <br>
+Currently, a bot is implemented to load the map, and TangoTek's hood is available to rail. <br>
 > Please consult the Discussions page (https://github.com/BoxOfDevs/DO2-Asset-Loader/discussions/) for development updates about each list item. <br>
 On that discussions page and on the issues page, please feel free to share your own thoughts, feedback, and ideas for the project. <br>
 - [X] Card Sounds Placeholder 
@@ -37,9 +38,9 @@ On that discussions page and on the issues page, please feel free to share your 
 - [ ] Set audio categories (not just neutral)
 - [X] Cards as Unique Items (With textures and lore)
 - [X] Treasure and Misc. DO2 Items as Unique Items
-- [ ] Polish card textures and lore
+- [X] Polish card textures and lore
 - [ ] Trophies, Gifts, Caps, and other miscellaneous models
-- [ ] Shop Items as Helmets (to put on armor stands in shops)
+- [X] Shop Items as Blocks for shops
 - [X] Animated Doors (Front Door and Lvl1 textures)
 - [ ] Holiday Entry Door
 - [ ] Usage Guide
