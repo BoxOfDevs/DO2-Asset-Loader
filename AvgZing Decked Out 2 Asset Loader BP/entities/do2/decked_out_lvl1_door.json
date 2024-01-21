@@ -1,25 +1,31 @@
 {
-    "format_version": "1.16.0",
-    "minecraft:entity": {
-        "description": {
-            "identifier": "bridge:decked_out_lvl1_door",
-            "is_spawnable": true,
-            "is_summonable": true,
-            "is_experimental": false
-        },
-        "component_groups": {},
-        "components": {
-            "minecraft:physics": {
-                "has_gravity": true
-            },
-            "minecraft:custom_hit_test": {
-                "hitboxes": [{
-                    "height": 1,
-                    "pivot": [0, -2, 0],
-                    "width": 1
-                }]
-            }
-        },
-        "events": {}
-    }
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "bridge:decked_out_lvl1_door",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"height": 1,
+						"pivot": [
+							0,
+							-2,
+							0
+						],
+						"width": 1
+					}
+				]
+			}
+		},
+		"events": {}
+	}
 }

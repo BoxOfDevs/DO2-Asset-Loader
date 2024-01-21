@@ -118,3 +118,5 @@ item.bridge:eggs_wels=§oWels' Egg
 item.bridge:eggs_xb=§oXB's Egg
 item.bridge:eggs_xisuma=§oXisuma's Egg
 item.bridge:eggs_zed=§oZed's Egg
+item.spawn_egg.entity.bridge:floatingtext.name=Spawn floatingtext
+entity.bridge:floatingtext.name=floatingtext

@@ -1,1 +1,9 @@
-{"format_version":"1.10.0","minecraft:item":{"description":{"identifier":"bridge:ember_seeker"},"components":{}}}
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bridge:ember_seeker"
+		},
+		"components": {}
+	}
+}
