@@ -75,9 +75,11 @@ world.afterEvents.playerSpawn.subscribe((eventData) => {
 // Decked Out Map Holder System: Register a gametest to spawn a simulated player at -510 64 1794
 GameTest.register("do2", "spawn_simulated_player", (test) => {
     const simulatedplayerName = "§dDecked Out Helper§r"; // Separated for easier future changes if applicable
-    const simulatedplayer = test.spawnSimulatedPlayer({ "x": -510, "y": 64, "z": 1794 }, simulatedplayerName, 1);
+    const simulatedplayer = test.spawnSimulatedPlayer({ "x": -510, "y": 64, "z": 1794 }, simulatedplayerName, 1); // Location, Name, Gamemode. 1 is Creative.
     simulatedplayer.runCommandAsync('tp @s -510 63 1794'); // Just in case it spawns elsewhere, move to correct location
     simulatedplayer.runCommandAsync("structure load spawn_simulated_player ~~~") // Give it the correct map to hold as an item
+    simulatedplayer.runCommandAsync("gamerule randomtickspeed 1"); // Gametests set this to 0. Reset to 1 when gametest starts.
+    simulatedplayer.runCommandAsync("gamerule doDaylightCycle true") // Gametests set this to false. Reset to true when gametest starts.
     test.print("The Decked Out Map Holder has been spawned!");
 
     world.afterEvents.chatSend.subscribe((eventData) => { // Create test succeed condition

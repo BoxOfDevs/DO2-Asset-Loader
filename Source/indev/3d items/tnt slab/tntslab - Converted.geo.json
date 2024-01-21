@@ -1,0 +1,36 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.tntslab - Converted",
+				"texture_width": 256,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{
+							"origin": [-8, 8, -8],
+							"size": [16, 8, 16],
+							"uv": {
+								"north": {"uv": [128, 0], "uv_size": [64, 35]},
+								"east": {"uv": [128, 0], "uv_size": [64, 35]},
+								"south": {"uv": [128, 0], "uv_size": [64, 35]},
+								"west": {"uv": [129, 0], "uv_size": [63, 35]},
+								"up": {"uv": [256, 64], "uv_size": [-64, -64]},
+								"down": {"uv": [128, 64], "uv_size": [-128, -64]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

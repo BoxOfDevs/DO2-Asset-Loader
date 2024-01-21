@@ -250,6 +250,66 @@
 		},
 		"bridge_do2_hood" :{
 			"textures": "textures/items/do2/tangohood"
+		},
+		"bridge_eggs_bdubs" :{
+			"textures": "textures/items/eggs/bdubs"
+		},
+		"bridge_eggs_beef" :{
+			"textures": "textures/items/eggs/beef"
+		},
+		"bridge_eggs_cleo" :{
+			"textures": "textures/items/eggs/cleo"
+		},
+		"bridge_eggs_cub" :{
+			"textures": "textures/items/eggs/cub"
+		},
+		"bridge_eggs_docm" :{
+			"textures": "textures/items/eggs/docm"
+		},
+		"bridge_eggs_false" :{
+			"textures": "textures/items/eggs/false"
+		},
+		"bridge_eggs_gold" :{
+			"textures": "textures/items/eggs/gold"
+		},
+		"bridge_eggs_grian" :{
+			"textures": "textures/items/eggs/grian"
+		},
+		"bridge_eggs_hypno" :{
+			"textures": "textures/items/eggs/hypno"
+		},
+		"bridge_eggs_impulse" :{
+			"textures": "textures/items/eggs/impulse"
+		},
+		"bridge_eggs_iskall" :{
+			"textures": "textures/items/eggs/iskall"
+		},
+		"bridge_eggs_jevin" :{
+			"textures": "textures/items/eggs/jevin"
+		},
+		"bridge_eggs_joe" :{
+			"textures": "textures/items/eggs/joe"
+		},
+		"bridge_eggs_pearl" :{
+			"textures": "textures/items/eggs/pearl"
+		},
+		"bridge_eggs_scar" :{
+			"textures": "textures/items/eggs/scar"
+		},
+		"bridge_eggs_stress" :{
+			"textures": "textures/items/eggs/stress"
+		},
+		"bridge_eggs_wels" :{
+			"textures": "textures/items/eggs/wels"
+		},
+		"bridge_eggs_xb" :{
+			"textures": "textures/items/eggs/xb"
+		},
+		"bridge_eggs_xisuma" :{
+			"textures": "textures/items/eggs/xisuma"
+		},
+		"bridge_eggs_zed" :{
+			"textures": "textures/items/eggs/zed"
 		}
 	}
 }

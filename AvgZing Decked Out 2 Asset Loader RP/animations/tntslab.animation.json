@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tntslab.first_person_wield": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [36.15612, 30.57812, -114.10158],
+					"position": [-10, 35, 5],
+					"scale": 0.5
+				}
+			}
+		},
+		"animation.tntslab.third_person_wield": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": [0, 45, 0],
+					"position": [-8, 15, -2],
+					"scale": [0.5, 0.5, 0.5]
+				}
+			}
+		}
+	}
+}

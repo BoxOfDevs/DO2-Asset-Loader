@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "bridge:tntslab",
+			"materials": {
+				"default": "entity_alphatest",
+				"enchanted": "entity_alphatest_glint"
+			},
+			"textures": {
+				"default": "textures/entity/do2/tntslab",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"animations": {
+				"third_person_wield": "animation.tntslab.third_person_wield",
+				"first_person_wield": "animation.tntslab.first_person_wield"
+			},
+			"geometry": {
+				"default": "geometry.do2.tntslab"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"third_person_wield": "!c.is_first_person"
+					},
+					{
+						"first_person_wield": "c.is_first_person"
+					}
+				]
+			},
+			"render_controllers": [
+                "controller.render.item_default"
+            ]
+		}
+	}
+}

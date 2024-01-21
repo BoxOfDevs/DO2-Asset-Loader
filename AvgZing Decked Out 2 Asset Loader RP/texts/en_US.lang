@@ -24,7 +24,7 @@ item.bridge:pocketwatchofshreep.name=§6§l§oPocket Watch of Shreeping (36)
 item.bridge:rocketship.name=§6§l§oCF-135 (46)
 item.bridge:skadoodler.name=§6§l§oThe Skadoodler (52)
 item.bridge:themasterskey.name=§6§l§oThe Master's Key (60)
-item.bridge:tntslab.name=§6§l§oThe Slab (50)
+item.bridge:tntslab=§6§l§oThe Slab (50)
 item.bridge:wandofgorgeousness.name=§6§l§oWand of Gorgeousness (22)
 
 item.bridge:adrenaline_rush.name=§o§a+ Adrenaline Rush +
@@ -71,7 +71,7 @@ item.bridge:tactical_approach.name=§o§e*≡ Tactical Approach ≡*
 item.bridge:tread_lightly.name=§o§a+ Tread Lightly +
 item.bridge:treasure_hunter.name=§o§7+ Treasure Hunter +
 
-item.bridge:bomb.name=§7 The Bomb 
+item.bridge:bomb.name=§3 The Bomb 
 item.bridge:do_key1_64.name=§7 The Caves Of Carnage Key 
 item.bridge:do_key4_64.name=§7 The Black Mines Key 
 item.bridge:do_key6_64.name=§7 The Burning Dark Key 
@@ -97,3 +97,24 @@ tile.bridge:entry_door_8.name=Entry Door 8
 tile.bridge:entry_door_9.name=Entry Door 9
 
 item.bridge:do2_hood=§o§bThe Dungeon Master's Hood
+
+item.bridge:eggs_bdubs=§oBdubs' Egg
+item.bridge:eggs_beef=§oBeef's Egg
+item.bridge:eggs_cleo=§oCleo's Egg
+item.bridge:eggs_cub=§oCub's Egg
+item.bridge:eggs_docm=§oDoc's Egg
+item.bridge:eggs_false=§oFalse's Egg
+item.bridge:eggs_gold=§e§oThe Golden Egg
+item.bridge:eggs_grian=§oGregg
+item.bridge:eggs_hypno=§oHypno's Egg
+item.bridge:eggs_impulse=§oImpulse's Egg
+item.bridge:eggs_iskall=§oIskall's Egg
+item.bridge:eggs_jevin=§oJevin's Egg
+item.bridge:eggs_joe=§oJoe's Egg
+item.bridge:eggs_pearl=§oPearl's Egg
+item.bridge:eggs_scar=§oScar's Egg
+item.bridge:eggs_stress=§oStress' Egg
+item.bridge:eggs_wels=§oWels' Egg
+item.bridge:eggs_xb=§oXB's Egg
+item.bridge:eggs_xisuma=§oXisuma's Egg
+item.bridge:eggs_zed=§oZed's Egg
