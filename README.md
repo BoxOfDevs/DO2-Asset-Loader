@@ -22,7 +22,7 @@ To add this addon to your world, follow the following steps:
 6. Activate the Decked Out 2 Asset Loader resource pack. The behavior pack will automatically activate too.
 7. You're all set! The addon is installed and added to your world, ready for use.
 
-If updating the version of the addon -- edit the world, then activate the latest version and remove the older version. The old version can be deleted from your game in in-game settings --> storage. 
+If updating the version of the addon -- edit the world, then activate the latest version and remove the older version. The old version can be deleted from your game in in-game settings --> storage. Do NOT load the world WITHOUT the packs enabled or this will remove ALL custom items -- ALWAYS check that your packs are still enabled after making version or storage changes.
 
 ## To-Do List:
 Currently, 61 sounds are implemented, using 165 unique audio files. <br>
@@ -43,6 +43,6 @@ On that discussions page and on the issues page, please feel free to share your 
 - [X] Shop Items as Blocks for shops
 - [X] Animated Doors (Front Door and Lvl1 textures)
 - [ ] Holiday Entry Door
-- [ ] Usage Guide
+- [X] Usage Guide
 - [ ] Address Community Feedback
 - [ ] FUTURE: Config? 

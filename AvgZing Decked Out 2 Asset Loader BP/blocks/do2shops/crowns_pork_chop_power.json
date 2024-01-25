@@ -1,18 +1,18 @@
 {
-	"format_version": "1.19.50",
-	"minecraft:block": {
-		"description": {
-			"identifier": "bridge:crowns_pork_chop_power"
-		},
-		"components": {
-			"minecraft:geometry": "geometry.crownshop",
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "bridge_crowns_pork_chop_power",
-					"render_method": "alpha_test"
-				}
-			},
-			"minecraft:light_emission": 3
-		}
-	}
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bridge:crowns_pork_chop_power"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.crownshop",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bridge_crowns_pork_chop_power",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:light_emission": 3
+    }
+  }
 }

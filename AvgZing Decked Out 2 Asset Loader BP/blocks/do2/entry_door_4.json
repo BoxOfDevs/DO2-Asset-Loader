@@ -1,15 +1,15 @@
 {
-	"format_version": "1.20.0",
-	"minecraft:block": {
-		"description": {
-			"identifier": "bridge:entry_door_4"
-		},
-		"components": {
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "bridge_entry_door_4"
-				}
-			}
-		}
-	}
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "bridge:entry_door_4"
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "bridge_entry_door_4"
+                }
+            }
+        }
+    }
 }

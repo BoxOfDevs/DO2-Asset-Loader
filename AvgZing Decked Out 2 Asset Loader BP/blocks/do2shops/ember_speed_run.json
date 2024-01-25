@@ -1,18 +1,18 @@
 {
-	"format_version": "1.19.50",
-	"minecraft:block": {
-		"description": {
-			"identifier": "bridge:ember_speed_run"
-		},
-		"components": {
-			"minecraft:geometry": "geometry.embershop",
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "bridge_ember_speed_run",
-					"render_method": "alpha_test"
-				}
-			},
-			"minecraft:light_emission": 3
-		}
-	}
+  "format_version": "1.19.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bridge:ember_speed_run"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.embershop",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bridge_ember_speed_run",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:light_emission": 3
+    }
+  }
 }

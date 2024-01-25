@@ -1,4 +1,4 @@
-import { system, world } from '@minecraft/server';
+import { system, world, ItemStack } from '@minecraft/server';
 import * as GameTest from "@minecraft/server-gametest";
 
 // Lore System for Decked Out 2 Artifacts
@@ -57,7 +57,7 @@ system.runInterval(() => {
     }
 }, 1);
 
-
+const simulatedplayerName = "§dDecked Out Helper§r"; // Separated for easier future changes if applicable
 
 // Subscribe to events to run code when specific in game actions occur
 // Decked Out Map Holder System: Spawn Simulated Player each time the Real Player re-enters the world
@@ -66,15 +66,17 @@ world.afterEvents.playerSpawn.subscribe((eventData) => {
     if (eventData.initialSpawn) { // Make sure it's the player spawning into the world, rather than dying
         do2sender.runCommandAsync("execute positioned -510 64 1794 run tag @a[rm=5] add Trusted");
         if (do2sender.hasTag("Trusted")) {
-            do2sender.runCommandAsync("fill 1000001 -60 1000001 999998 319 1000003 air");
-            do2sender.runCommandAsync("execute positioned 1000000 -60 1000000 run gametest run do2:spawn_simulated_player");
+            const playernames = world.getAllPlayers();
+            if (!playernames.includes(simulatedplayerName)) { // Making sure multiple simulated players don't spawn
+                do2sender.runCommandAsync("fill 1000001 -60 1000001 999998 319 1000003 air");
+                do2sender.runCommandAsync("execute positioned 1000000 -60 1000000 run gametest run do2:spawn_simulated_player");
+            }
         }
     }
 })
 
 // Decked Out Map Holder System: Register a gametest to spawn a simulated player at -510 64 1794
 GameTest.register("do2", "spawn_simulated_player", (test) => {
-    const simulatedplayerName = "§dDecked Out Helper§r"; // Separated for easier future changes if applicable
     const simulatedplayer = test.spawnSimulatedPlayer({ "x": -510, "y": 64, "z": 1794 }, simulatedplayerName, 1); // Location, Name, Gamemode. 1 is Creative.
     simulatedplayer.runCommandAsync('tp @s -510 63 1794'); // Just in case it spawns elsewhere, move to correct location
     simulatedplayer.runCommandAsync("structure load spawn_simulated_player ~~~") // Give it the correct map to hold as an item
@@ -95,3 +97,44 @@ GameTest.register("do2", "spawn_simulated_player", (test) => {
     .structureName("do2:spawn_simulated_player")
 
 // See more at https://wiki.bedrock.dev/scripting/script-server.html
+
+// https://learn.microsoft.com/en-us/minecraft/creator/scriptapi/minecraft/server/blockinventorycomponent
+
+// Experimenting with Self-Refilling Treasure Droppers
+
+world.afterEvents.entitySpawn.subscribe(({ entity }) => {
+    if (entity.typeId === "minecraft:item") { // Confirm entity spawned is an item and get its dimension and location
+        const itemStack = entity.getComponent("item").itemStack;
+        const { dimension, location } = entity;
+
+        // The item is still an entity when it's travelling through blocks, so this position is guaranteed immediately after ejecting
+        if (dimension.getBlock({ x: location.x, y: location.y - 1, z: location.z }).typeId === "minecraft:dropper") {
+            const dropperinv = dimension.getBlock({ x: location.x, y: location.y - 1, z: location.z }).getComponent("inventory").container;
+            // world.sendMessage(itemStack.typeId + " was found 1 block above a dropper") // Debug Message
+
+            // Begin cycling through items to re-insert
+            if (itemStack.typeId.includes("coin")) {
+                dropperinv.addItem(new ItemStack("bridge:do_coin",1));
+            } else if (itemStack.typeId.includes("ember")) {
+                dropperinv.addItem(new ItemStack("bridge:do_ember",1));
+            } else if (itemStack.typeId.includes("crown")) {
+                dropperinv.addItem(new ItemStack("bridge:do_crown",1));
+            } else if (itemStack.typeId.includes("key1")) {
+                dropperinv.addItem(new ItemStack("bridge:do_key1_64",1));
+            } else if (itemStack.typeId.includes("key4")) {
+                dropperinv.addItem(new ItemStack("bridge:do_key4_64",1));
+            } else if (itemStack.typeId.includes("key6")) {
+                dropperinv.addItem(new ItemStack("bridge:do_key6_64",1));
+            } else if (itemStack.typeId.includes("toolbox")) {
+                dropperinv.addItem(new ItemStack("bridge:toolbox",1));
+            } else if (itemStack.typeId.includes("pumpkin")) {
+                world.sendMessage("Pumpkin found!")
+                const pumpkin = new ItemStack("minecraft:pumpkin",1);
+                pumpkin.nameTag = "§5❄☠ Halloween Pumpkin ☠❄";
+                dropperinv.addItem(pumpkin);
+            } else if (itemStack.typeId.includes("bomb")) {
+                dropperinv.addItem(new ItemStack("bridge:bomb",1));
+            }
+        }
+    }
+});

@@ -80,7 +80,7 @@ item.bridge:do_coin.name=§7 Decked Out Coin 
 item.bridge:do_crown.name=§7 Decked Out Crown 
 item.bridge:do_ember.name=§7 Decked Out Frost Ember 
 item.bridge:do_tome.name=§7 Victory Tome 
-item.bridge:do_frozenshard6.name=§7 Frozen Shard 
+item.bridge:do_frozenshard6.name=§3 Frozen Shard 
 
 item.spawn_egg.entity.bridge:decked_out_lvl1_door.name=Spawn Decked Out Level 1 Door
 entity.bridge:decked_out_lvl1_door.name=Decked Out Level 1 Door
