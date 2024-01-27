@@ -2,14 +2,14 @@
 	"format_version": "1.8.0",
 	"render_controllers": {
 		"controller.render.floatingtext": {
-			"geometry": "Geometry.default",
+			"geometry": "geometry.default",
 			"materials": [
 				{
-					"*": "Material.default"
+					"*": "material.default"
 				}
 			],
 			"textures": [
-				"Texture.default"
+				"texture.default"
 			]
 		}
 	}

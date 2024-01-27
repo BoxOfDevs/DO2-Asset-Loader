@@ -9,9 +9,9 @@
 		},
 		"component_groups": {},
 		"components": {
-            "minecraft:physics": {
-                "has_gravity": true
-            },
+			"minecraft:physics": {
+				"has_gravity": true
+			},
 			"minecraft:nameable": {
 				"allow_name_tag_renaming": true,
 				"always_show": true

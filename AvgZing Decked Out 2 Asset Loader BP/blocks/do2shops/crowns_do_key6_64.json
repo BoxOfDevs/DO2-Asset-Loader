@@ -1,18 +1,18 @@
 {
-  "format_version": "1.19.50",
-  "minecraft:block": {
-    "description": {
-      "identifier": "bridge:crowns_do_key6_64"
-    },
-    "components": {
-      "minecraft:geometry": "geometry.crownshop",
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "bridge_crowns_do_key6_64",
-          "render_method": "alpha_test"
-        }
-      },
-      "minecraft:light_emission": 3
-    }
-  }
+	"format_version": "1.19.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "bridge:crowns_do_key6_64"
+		},
+		"components": {
+			"minecraft:geometry": "geometry.crownshop",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "bridge_crowns_do_key6_64",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:light_emission": 3
+		}
+	}
 }

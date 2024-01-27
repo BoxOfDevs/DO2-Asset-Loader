@@ -40,6 +40,7 @@ const ItemArray = [
     new loreItem("bridge:themasterskey", ["§5What could it possibly open?"]),
     new loreItem("bridge:tntslab", ["§5The one that started it all.", "Accept no substitutes"]),
     new loreItem("bridge:wandofgorgeousness", ["§5Makes Everything gorgeous. Of course."]),
+    new loreItem("bridge:do2_hood", ["§5Enthrall the DM to do your bidding for one run!"]),
 ];
 // Use system to execute code every tick or after delays
 // Checks inventories for items within the earlier-set array
@@ -66,15 +67,14 @@ world.afterEvents.playerSpawn.subscribe((eventData) => {
     if (eventData.initialSpawn) { // Make sure it's the player spawning into the world, rather than dying
         do2sender.runCommandAsync("execute positioned -510 64 1794 run tag @a[rm=5] add Trusted");
         if (do2sender.hasTag("Trusted")) {
-            const playernames = world.getAllPlayers();
-            if (!playernames.includes(simulatedplayerName)) { // Making sure multiple simulated players don't spawn
+            const simplayers = world.getPlayers({ name: simulatedplayerName });
+            if (!(simplayers[0])) { // Making sure multiple simulated players don't spawn
                 do2sender.runCommandAsync("fill 1000001 -60 1000001 999998 319 1000003 air");
                 do2sender.runCommandAsync("execute positioned 1000000 -60 1000000 run gametest run do2:spawn_simulated_player");
             }
         }
     }
 })
-
 // Decked Out Map Holder System: Register a gametest to spawn a simulated player at -510 64 1794
 GameTest.register("do2", "spawn_simulated_player", (test) => {
     const simulatedplayer = test.spawnSimulatedPlayer({ "x": -510, "y": 64, "z": 1794 }, simulatedplayerName, 1); // Location, Name, Gamemode. 1 is Creative.
@@ -82,6 +82,8 @@ GameTest.register("do2", "spawn_simulated_player", (test) => {
     simulatedplayer.runCommandAsync("structure load spawn_simulated_player ~~~") // Give it the correct map to hold as an item
     simulatedplayer.runCommandAsync("gamerule randomtickspeed 1"); // Gametests set this to 0. Reset to 1 when gametest starts.
     simulatedplayer.runCommandAsync("gamerule doDaylightCycle true") // Gametests set this to false. Reset to true when gametest starts.
+    simulatedplayer.runCommandAsync("gamerule playerssleepingpercentage 1") // Realms set this to 100. Reset to 1 when gametest starts.
+    simulatedplayer.runCommandAsync("gamerule commandblockoutput false") // Realms set this to true. Reset to false when gametest starts.
     test.print("The Decked Out Map Holder has been spawned!");
 
     world.afterEvents.chatSend.subscribe((eventData) => { // Create test succeed condition
@@ -90,8 +92,18 @@ GameTest.register("do2", "spawn_simulated_player", (test) => {
             simulatedplayer.kill();
             test.succeed();
         }
-
     });
+
+    world.beforeEvents.playerLeave.subscribe(({player}) => { // Remove simplayer in BDS / Realms, multiplayer compatible
+        const { dimension } = player;
+        const simplayers = world.getPlayers({ excludeNames: [simulatedplayerName, player.name] });
+        if (!(simplayers[0])) {
+        system.run(() => {
+            dimension.runCommand(`gametest stopall`);
+        });
+        }
+    });
+
 })
     .maxTicks(1000 * 72000) // Fallback: Kill gametest after 1000 hours
     .structureName("do2:spawn_simulated_player")
@@ -114,26 +126,26 @@ world.afterEvents.entitySpawn.subscribe(({ entity }) => {
 
             // Begin cycling through items to re-insert
             if (itemStack.typeId.includes("coin")) {
-                dropperinv.addItem(new ItemStack("bridge:do_coin",1));
+                dropperinv.addItem(new ItemStack("bridge:do_coin", 1));
             } else if (itemStack.typeId.includes("ember")) {
-                dropperinv.addItem(new ItemStack("bridge:do_ember",1));
+                dropperinv.addItem(new ItemStack("bridge:do_ember", 1));
             } else if (itemStack.typeId.includes("crown")) {
-                dropperinv.addItem(new ItemStack("bridge:do_crown",1));
+                dropperinv.addItem(new ItemStack("bridge:do_crown", 1));
             } else if (itemStack.typeId.includes("key1")) {
-                dropperinv.addItem(new ItemStack("bridge:do_key1_64",1));
+                dropperinv.addItem(new ItemStack("bridge:do_key1_64", 1));
             } else if (itemStack.typeId.includes("key4")) {
-                dropperinv.addItem(new ItemStack("bridge:do_key4_64",1));
+                dropperinv.addItem(new ItemStack("bridge:do_key4_64", 1));
             } else if (itemStack.typeId.includes("key6")) {
-                dropperinv.addItem(new ItemStack("bridge:do_key6_64",1));
+                dropperinv.addItem(new ItemStack("bridge:do_key6_64", 1));
             } else if (itemStack.typeId.includes("toolbox")) {
-                dropperinv.addItem(new ItemStack("bridge:toolbox",1));
+                dropperinv.addItem(new ItemStack("bridge:toolbox", 1));
             } else if (itemStack.typeId.includes("pumpkin")) {
-                world.sendMessage("Pumpkin found!")
-                const pumpkin = new ItemStack("minecraft:pumpkin",1);
+                // world.sendMessage("Pumpkin found!")
+                const pumpkin = new ItemStack("minecraft:pumpkin", 1);
                 pumpkin.nameTag = "§5❄☠ Halloween Pumpkin ☠❄";
                 dropperinv.addItem(pumpkin);
             } else if (itemStack.typeId.includes("bomb")) {
-                dropperinv.addItem(new ItemStack("bridge:bomb",1));
+                dropperinv.addItem(new ItemStack("bridge:bomb", 1));
             }
         }
     }
