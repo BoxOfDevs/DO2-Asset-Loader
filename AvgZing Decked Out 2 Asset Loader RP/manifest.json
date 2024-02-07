@@ -14,38 +14,38 @@
 		}
 	},
 	"header": {
-		"name": "AvgZing Decked Out 2 Addon v1.7.5",
+		"name": "AvgZing Decked Out 2 Addon v1.7.6",
 		"description": "Addon used for custom items, sounds, and textures for AvgZing's port of Decked Out 2 to bedrock",
 		"min_engine_version": [
 			1,
 			20,
 			50
 		],
-		"uuid": "411c6374-6356-51ab-88e3-33eb0f3ae267",
+		"uuid": "511c6374-6356-51ab-88e3-33eb0f3ae267",
 		"version": [
 			1,
 			7,
-			6
+			7
 		]
 	},
 	"modules": [
 		{
 			"type": "resources",
-			"uuid": "29b16999-f925-4766-bf86-058d6c1bd87e",
+			"uuid": "39b16999-f925-4766-bf86-058d6c1bd87e",
 			"version": [
 				1,
 				7,
-				5
+				6
 			]
 		}
 	],
 	"dependencies": [
 		{
-			"uuid": "589471f4-5914-486b-9e60-df51512b51ae",
+			"uuid": "689471f4-5914-486b-9e60-df51512b51ae",
 			"version": [
 				1,
 				7,
-				6
+				7
 			]
 		}
 	]
