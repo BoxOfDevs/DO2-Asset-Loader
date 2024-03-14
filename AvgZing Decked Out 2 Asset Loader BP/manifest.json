@@ -6,7 +6,7 @@
 		],
 		"generated_with": {
 			"bridge": [
-				"2.7.10"
+				"2.7.13"
 			],
 			"dash": [
 				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
@@ -14,28 +14,28 @@
 		}
 	},
 	"header": {
-		"name": "AvgZing Decked Out 2 Addon v1.7.6",
+		"name": "AvgZing Decked Out 2 Addon v1.7.7",
 		"description": "Addon used for custom items, sounds, and textures for AvgZing's port of Decked Out 2 to bedrock",
 		"min_engine_version": [
 			1,
 			20,
-			50
+			70
 		],
-		"uuid": "689471f4-5914-486b-9e60-df51512b51ae",
+		"uuid": "d0f2b1b2-90d6-41ea-9057-c23c6ab109ae",
 		"version": [
 			1,
 			7,
-			7
+			8
 		]
 	},
 	"modules": [
 		{
 			"type": "data",
-			"uuid": "80f484ac-b3f6-5de1-af33-a58892eaaec8",
+			"uuid": "80f484ac-b3f6-5de1-af33-a58892eaaec1",
 			"version": [
 				1,
 				7,
-				6
+				7
 			]
 		},
 		{
@@ -53,7 +53,7 @@
 	"dependencies": [
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.9.0-beta"
+			"version": "1.9.0"
 		},
 		{
 			"module_name": "@minecraft/server-gametest",

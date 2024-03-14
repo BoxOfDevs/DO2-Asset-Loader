@@ -86,13 +86,13 @@ GameTest.register("do2", "spawn_simulated_player", (test) => {
     simulatedplayer.runCommandAsync("gamerule commandblockoutput false") // Realms set this to true. Reset to false when gametest starts.
     test.print("The Decked Out Map Holder has been spawned!");
 
-    world.afterEvents.chatSend.subscribe((eventData) => { // Create test succeed condition
+   /* world.afterEvents.chatSend.subscribe((eventData) => { // Create test succeed condition
         if (eventData.message == "!do2map remove") {
             test.print("Decked Out Map Holder has been removed!");
             simulatedplayer.kill();
             test.succeed();
         }
-    });
+    }); */
 
     world.beforeEvents.playerLeave.subscribe(({player}) => { // Remove simplayer in BDS / Realms, multiplayer compatible
         const { dimension } = player;
