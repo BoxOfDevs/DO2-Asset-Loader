@@ -1,5 +1,5 @@
 {
-	"format_version": "1.16.100",
+	"format_version": "1.20.20",
 	"minecraft:item": {
 		"description": {
 			"identifier": "bridge:eggs_bdubs",
@@ -20,10 +20,6 @@
 			},
 			"minecraft:icon": {
 				"texture": "bridge_eggs_bdubs"
-			},
-			"minecraft:render_offsets": "helmets",
-			"minecraft:armor": {
-				"protection": 2
 			},
 			"minecraft:wearable": {
 				"slot": "slot.armor.head"

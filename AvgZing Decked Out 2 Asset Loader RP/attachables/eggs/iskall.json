@@ -11,6 +11,10 @@
         "default": "textures/eggs/iskall",
         "enchanted": "textures/misc/enchanted_item_glint"
       },
+      "animations": {
+        "third_person_wield": "animation.customhelmet.third_person_wield",
+        "first_person_wield": "animation.customhelmet.first_person_wield"
+      },
       "geometry": {
         "default": "geometry.eggs"
       },

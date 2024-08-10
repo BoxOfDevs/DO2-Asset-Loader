@@ -1,13 +1,13 @@
 {
-	"format_version": "1.16.100",
-	"minecraft:item": {
-		"description": {
-			"identifier": "bridge:tntslab"
-		},
-		"components": {
-			"minecraft:icon": {
-				"texture": "bridge_tntslab"
-			}
-		}
-	}
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bridge:tntslab"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "bridge_tntslab"
+      }
+    }
+  }
 }
